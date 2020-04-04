@@ -16,7 +16,10 @@ module.exports = {
     "ui": {
         "port": 3001
     },
-    "files": ["**/*.js"],
+    "files": [
+      "**/*.js",
+      "**/*.html"
+    ],
     "server": {
       "baseDir": "./build"
     },

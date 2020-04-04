@@ -703,7 +703,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.8.4":
+"@babel/runtime@^7.3.1", "@babel/runtime@^7.8.4":
   version "7.9.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
   integrity sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
@@ -743,6 +743,21 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@editorjs/attaches@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/attaches/-/attaches-1.0.1.tgz#1932f89173496b02783db166464a4239a1513246"
+  integrity sha512-jCCIQixivzZ6ZbDC8z4WAkEwzOJk+yxyPDDq4w3xmBMUTgZoIBFCzp7HEKwM13YFfC1SS4KVJGIFbcdDZBswFg==
+
+"@editorjs/code@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/code/-/code-2.4.1.tgz#a1851c781c9ead9a84bd921f04df172a2383f550"
+  integrity sha512-R4UUApkm6FLuxrQoqISg6GL73t0WWOdoPdAmAa36xarmtmBRkxu4AfxIwzW2CtUD1CqG1T7Be6jnv4ZeUoMNYQ==
+
+"@editorjs/delimiter@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/delimiter/-/delimiter-1.1.0.tgz#f61808ea92e4e289607d54441964f1cb8605410a"
+  integrity sha512-0G36vEvvb94g6nu/qs2rVjC/qjxLnY20OfOgxROKSOOXzS7xnkTij5raeIxRiYueeLL5fMrzrvtFH7wclfxF+g==
+
 "@editorjs/editorjs@^2.17.0":
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.17.0.tgz#38f20d7f99bc21868904b6b937905b6daad5a2a2"
@@ -750,6 +765,73 @@
   dependencies:
     codex-notifier "^1.1.2"
     codex-tooltip "^1.0.0"
+
+"@editorjs/embed@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/embed/-/embed-2.2.1.tgz#90dbcac6e163d20c665fcc1a218d4ba1db80e2f1"
+  integrity sha512-jjhgJf+LkYr8UfsQPavfukCq0+SIkz1MD8vmWkN29uU2zItWsScmfRis3YoLZJ7Rrz+yDeS8GyUjxTg2iQa0Vg==
+
+"@editorjs/header@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/header/-/header-2.4.0.tgz#0ac14bf68e4a01305bbb20c8ffb754a75a3d374a"
+  integrity sha512-gXq7LkMWWno0c6vYDIROn0vqGnbQ/sGENljdtTWSBefCUqzKlqbQaeN4x4IqqvxCvOiH3RtdjJvfv92/ziIxmg==
+
+"@editorjs/image@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@editorjs/image/-/image-2.3.3.tgz#5bd0e46ab038853948c5e5df9b049cce53f2d998"
+  integrity sha512-IYPCGFVRYyR37m9OeoX4I5SPlMPzHtEgjHzOTeZoU749CI2a7FYVBcMT2j5xoyfDtNSjWT9LAlvPJULv3CFxgg==
+
+"@editorjs/inline-code@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/inline-code/-/inline-code-1.3.1.tgz#4890e30d00dcaeacafbcb30459309dfd740b0d4b"
+  integrity sha512-iY6DeRmJo2Jl6sB2S9QEA9OoSp+KCHBztoY2fjPeiBcKCOKX8we5H3JQJTLxT0L/N8uJqCUiiPKgG6xvqaCn+g==
+
+"@editorjs/link@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@editorjs/link/-/link-2.1.3.tgz#fd14f0a519aab75e234bba5f6e729ba5f0b94422"
+  integrity sha512-nLRnuco61scMPyvczhOVjCd2axk6PWPClpBYEtrtOxP4Cp6tHNRuwvVfSwSGewHBb4A4SJL/NMCShRdfbOm6DQ==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+
+"@editorjs/list@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/list/-/list-1.4.0.tgz#e92459a8ac2305bc4385245e329c8b5c8437456a"
+  integrity sha512-iYDXGbVXvsAJbSxbjFMP4p7kS1zhQyNDqVNzkfMRhItulzKYlOMlFjTIGHqu5SxPy6NrcckhVFaWdfGDn5/gEA==
+
+"@editorjs/marker@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@editorjs/marker/-/marker-1.2.2.tgz#d9261a257436bf70179c0fa1e766ab85c823c96b"
+  integrity sha512-BN/IHbVKKahGnMAiBOV5U7XUjfF6JkIkTZ6qNLxtTr7PUPM8UsJV8G8pyll9CX+XRUYYZyokA2kEBHTS4vUyyw==
+
+"@editorjs/paragraph@^2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/paragraph/-/paragraph-2.6.1.tgz#efd21da9912686024abd96eedd0c2258193f7d31"
+  integrity sha512-YaV8nVQVS3iMKig/XwmX0+Bq4NxHymWdUPdwpaAyyhOoo6z0ht5uhEzDG9QOOTVKsimcmR49bJLEtl3dlBoqxA==
+
+"@editorjs/personality@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/personality/-/personality-2.0.1.tgz#2c83814f71703af96ee420f7355aaed464b2d5cc"
+  integrity sha512-x5ELrjfX9W4BAasBTuK0MJy9/tD/kE/fTvuxnlbYGx4lToG2mJtNkpCqL7bYZ8ChatBZPn1M6Y3EVBZRd8M2xA==
+
+"@editorjs/quote@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/quote/-/quote-2.3.0.tgz#5585cf93a87a1fd4e0c72ba08c90eb8eb06b518d"
+  integrity sha512-B+4xEXMWiZki2EQDTJRnzMK8hNwpf7vGJtYIxfE4rOuXi5mke3xkKhrD7yPXcZYucVtCnfCVPOmFaQ3ZgiG2Qw==
+
+"@editorjs/raw@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@editorjs/raw/-/raw-2.1.2.tgz#fb8bcd44f38b15294d35d3859e310f878e499bbd"
+  integrity sha512-XgJkMfxcM+6jEyXzPi3kjR72XQAhWTc4dP6sV4sIhRyVAIucRULr4S6dXKtkcBf7Ci40lXqgdE9K16ggFrXVWQ==
+
+"@editorjs/simple-image@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@editorjs/simple-image/-/simple-image-1.3.3.tgz#174ac97ba1a1bea54efe20dc0aedeca3480bee42"
+  integrity sha512-a+MrzhDZ6kiMKPPlRtrTqgVTeZH1U/2OuRUzUc2zgMKDqQHiJTusWD8Dfv283DoFbXDHZBlo1ZlZ2B/4sSf2cw==
+
+"@editorjs/table@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@editorjs/table/-/table-1.2.2.tgz#6a3746acecf5e87e42d551dcd2716e911bd7efbc"
+  integrity sha512-1uQlSk/hDxshZbRgSpsSbB966qaIOIy7r0BkSL+dh9rtx8HJSjAsSWaT22z105YkWDpm16VINzHkdURt4UhTqA==
 
 "@types/events@*":
   version "3.0.0"
